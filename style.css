@@ -22,8 +22,8 @@ body {
 }
 
 .top-logos img {
-  width: 15%;
-  height: auto;
+  height: 100%;
+  width: auto;
 }
 
 .middle-text {
@@ -65,9 +65,7 @@ body {
   .top-logos {
     padding-top: 20px;
   }
-  .top-logos img {
-    width: 20%;
-  }
+
   .middle-text h1 {
     font-size: 40px;
   }
@@ -87,8 +85,8 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-  .top-logos img {
-    width: 30%;
+  .top-logos {
+    height: 23px;
   }
   .top-logos img:first-child {
     margin-bottom: 15px;
