@@ -51,6 +51,9 @@
         {
           src: "./assets/bg3.jpg",
         },
+        {
+          src: "./assets/bg4.jpg",
+        },
       ],
       walk: function (index, slideSettings) {
         let timerProgress = document.querySelector(".vegas-timer-progress");
@@ -60,6 +63,8 @@
           timerProgress.style.background = "#FFFF00";
         } else if (index === 2) {
           timerProgress.style.background = "#FFCC00";
+        } else {
+          timerProgress.style.background = "#FFFFFF";
         }
       },
     });
